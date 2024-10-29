@@ -1,7 +1,6 @@
 import {
     Sidebar,
     SidebarContent,
-    SidebarFooter,
     SidebarGroup,
     SidebarGroupContent,
     SidebarGroupLabel,
@@ -10,28 +9,28 @@ import {
     SidebarMenuButton,
     SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import { Calendar, Home, Settings, HandCoins, LayoutDashboard } from "lucide-react"
+import { Home, Settings, HandCoins, LayoutDashboard } from "lucide-react"
 
 // Menu items.
 const items = [
     {
         title: "Home",
-        url: "#",
+        url: "/",
         icon: Home,
     },
     {
         title: "Dashboard",
-        url: "#",
+        url: "/dashboard",
         icon: LayoutDashboard,
     },
     {
         title: "Expense",
-        url: "#",
+        url: "/expense",
         icon: HandCoins,
     },
     {
         title: "Settings",
-        url: "#",
+        url: "/settings",
         icon: Settings,
     },
 ]
@@ -40,15 +39,6 @@ export function AppSidebar() {
     return (
         <Sidebar collapsible="icon">
             <SidebarContent>
-                <SidebarGroup >
-                    <SidebarGroupContent>
-                        <SidebarMenu>
-                            <SidebarHeader>
-                                Tracker
-                            </SidebarHeader>
-                        </SidebarMenu>
-                    </SidebarGroupContent>
-                </SidebarGroup >
                 <SidebarGroup>
                     <SidebarGroupLabel>Pages</SidebarGroupLabel>
                     <SidebarGroupContent>
