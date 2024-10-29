@@ -29,7 +29,7 @@ export default async function page() {
           <p>{user?.email}</p>
         </CardContent>
         <CardFooter>
-          <p>{user.id}</p>
+          <p>{user?.id}</p>
         </CardFooter>
       </Card>
 
