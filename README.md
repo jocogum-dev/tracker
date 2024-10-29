@@ -8,7 +8,7 @@ This project aims to be used by me to track my daily expenses while learning how
 
 ## **Installation**
 
-To install Project Title, follow these steps:
+To install Tracker, follow these steps:
 
 1. Clone the repository: **`git clone https://github.com/jocogum-dev/tracker.git`**
 2. Navigate to the project directory: **`cd tracker`**
@@ -23,4 +23,4 @@ To install Project Title, follow these steps:
 
 ## **Authors**
 
-Project Title was created by **[jocogum-dev](https://github.com/jocogum-dev)**.
+Tracker was created by **[jocogum-dev](https://github.com/jocogum-dev)**.
