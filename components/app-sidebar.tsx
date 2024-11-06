@@ -9,7 +9,7 @@ import {
     SidebarMenuButton,
     SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import { Home, Settings, HandCoins, LayoutDashboard } from "lucide-react"
+import { Home, Settings, HandCoins, LayoutDashboard, ListCheck } from "lucide-react"
 
 // Menu items.
 const items = [
@@ -27,6 +27,11 @@ const items = [
         title: "Expense",
         url: "/expense",
         icon: HandCoins,
+    },
+    {
+        title: "Category",
+        url: "/category",
+        icon: ListCheck,
     },
     {
         title: "Settings",

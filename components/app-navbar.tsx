@@ -11,7 +11,10 @@ export default function AppNavbar({
       {children}
       <div className="flex flex-row justify-center items-center gap-5">  
         <div className="text-xl">
-          Tracker
+          <span className="text-transparent bg-clip-text bg-gradient-to-bl from-rose-500 to-purple-500 dark:from-rose-200 dark:via-indigo-300 dark:to-sky-500">
+            Tracker
+          </span>
+          
         </div>
         <Avatar>
           <AvatarImage className="border rounded-full p-1" src="/user-round.svg" />
